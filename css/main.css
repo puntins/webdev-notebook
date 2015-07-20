@@ -95,6 +95,25 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   article {
+     border: 1px solid gray;
+     border-radius: 4px;
+     /*background: #ffdfaf;*/
+     background: #affffd;
+     width: 20rem;
+     padding: 0 1rem 0 1rem;
+     margin-top: 2rem;
+     margin-left: 0;
+   }
+
+   .flexContainer {
+     display: flex;
+     flex-direction: row;
+     flex-flow: row wrap;
+     align-items: baseline;
+     justify-content: space-around;
+   }
+
 
 
 
@@ -277,14 +296,4 @@ textarea {
     h3 {
         page-break-after: avoid;
     }
-}
-
-article {
-  border: 1px solid gray;
-  border-radius: 4px;
-  background: #ffdfaf;
-  width: 20rem;
-  padding: 0 1rem 0 1rem;
-  margin-top: 2rem;
-  margin-left: 0;
 }
