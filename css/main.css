@@ -278,3 +278,13 @@ textarea {
         page-break-after: avoid;
     }
 }
+
+article {
+  border: 1px solid gray;
+  border-radius: 4px;
+  background: #ffdfaf;
+  width: 20rem;
+  padding: 0 1rem 0 1rem;
+  margin-top: 2rem;
+  margin-left: 0;
+}
