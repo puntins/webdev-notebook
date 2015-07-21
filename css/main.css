@@ -131,20 +131,29 @@ h2 {
 }
 
 article {
- border: 2px solid #323232;
- border-radius: 2px;
- background: #b5cfce;
- width: 20rem;
- padding: 0 1rem 0 1rem;
- margin-top: 1rem;
- margin-left: 1rem;
+  background: #b5cfce;
+  border: 2px solid #323232;
+  border-radius: 2px;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  padding: 0 1rem 0 1rem;
+  width: 20rem;
 }
 
 .flexContainer {
- display: flex;
- flex-wrap: wrap;
- align-items:stretch;;
- justify-content: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  align-items:stretch;;
+  justify-content: flex-start;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  font-weight: lighter;
+  justify-content: center;
+  margin-top: 2rem;
 }
 
 
