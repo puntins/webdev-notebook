@@ -95,24 +95,57 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-   article {
-     border: 1px solid gray;
-     border-radius: 4px;
-     /*background: #ffdfaf;*/
-     background: #affffd;
-     width: 20rem;
-     padding: 0 1rem 0 1rem;
-     margin-top: 2rem;
-     margin-left: 0;
-   }
+body {
+  background-color: #1b1b1b;
+}
 
-   .flexContainer {
-     display: flex;
-     flex-direction: row;
-     flex-flow: row wrap;
-     align-items: baseline;
-     justify-content: space-around;
-   }
+header {
+  background-image: url(../img/black-01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  border-bottom: 0.5rem solid #323232;
+  padding-bottom:2rem;
+}
+
+h1 {
+  margin: 0 0 2rem 2rem;
+  padding-top: 2rem;
+  color: #fff;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 2rem;
+  padding: 0;
+  color: #fff;
+}
+
+nav li {
+  display: inline-block;
+}
+
+h2 {
+  margin: 2rem 0 0 2rem;
+  color: #fff;
+}
+
+article {
+ border: 2px solid #323232;
+ border-radius: 2px;
+ background: #b5cfce;
+ width: 20rem;
+ padding: 0 1rem 0 1rem;
+ margin-top: 1rem;
+ margin-left: 1rem;
+}
+
+.flexContainer {
+ display: flex;
+ flex-wrap: wrap;
+ align-items:stretch;;
+ justify-content: flex-start;
+}
 
 
 
