@@ -99,6 +99,12 @@ body {
   background-color: #1b1b1b;
 }
 
+.stickIt {
+  position: fixed;
+  width: 100%;
+  top: 0px;
+}
+
 header {
   background-image: url(../img/black-01.jpg);
   background-repeat: no-repeat;
@@ -106,6 +112,18 @@ header {
   background-position: center center;
   border-bottom: 0.5rem solid #323232;
   padding-bottom:2rem;
+}
+
+#journal {
+  margin-top: 190px;
+}
+
+section:before {
+  display: block;
+  content: " ";
+  margin-top: -190px;
+  height: 190px;
+  visibility: hidden;
 }
 
 h1 {
@@ -123,6 +141,21 @@ nav ul {
 
 nav li {
   display: inline-block;
+  list-style: none;
+  padding: 0 1rem 0 1rem;
+}
+
+.supportLinks {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.supportLinks img{
+  width: 50px;
+  height: auto;
+  padding: 0 8px 0 0;
+  margin-top: -2rem;
 }
 
 h2 {

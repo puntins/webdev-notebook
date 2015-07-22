@@ -21,22 +21,28 @@
 
         <!-- Add your site or application content here -->
 
-        <header>
+        <header class="stickIt">
           <h1 class="mainHeader">Getting my head around Web Development</h1>
 
-          <nav>
+          <nav class="innerNav">
             <ul>
-              <li>Journal</li>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-              <li>Tools</li>
+              <li><a href="#journal">Journal</a></li>
+              <li><a href="#html">HTML</a></li>
+              <li><a href="#css">CSS</a></li>
+              <li><a href="#java">JavaScript</a></li>
+              <li><a href="#tools">Tools</a></li>
             </ul>
           </nav>
 
+          <div class="supportLinks">
+            <a href="mailto:mal_blackwell@yahoo.com" target="_blank"><img src="img/mail.png" alt="Mail logo"></a>
+            <a href="https://www.linkedin.com/pub/mal-blackwell/1/873/b10" target="_blank"><img src="img/linkedin.png" alt="Linkedin profile"></a>
+          </div>
+
+
         </header>
 
-        <section>
+        <section id="journal">
           <h2>Journal</h2>
             <div class="flexContainer">
               <article>
@@ -83,7 +89,7 @@
               </div>
         </section>
 
-        <section>
+        <section id="html">
           <h2>HTML</h2>
             <div class="flexContainer">
               <article>
@@ -102,7 +108,7 @@
             </div>
         </section>
 
-        <section>
+        <section id="css">
           <h2>Cascading Style Sheets</h2>
             <div class="flexContainer">
               <article>
@@ -135,7 +141,7 @@
             </div>
         </section>
 
-        <section>
+        <section id="java">
           <h2>JavaScript & JQuery</h2>
             <div class="flexContainer">
               <article>
@@ -175,7 +181,7 @@
             </div>
         </section>
 
-        <section>
+        <section id="tools">
           <h2>TOOLS</h2>
             <div class="flexContainer">
               <article>
@@ -194,7 +200,7 @@
             </div>
         </section>
 
-      <footer><p>&copy 2015 Mal Blackwell</p></footer>
+      <footer><p>&copy; 2015 Mal Blackwell</p></footer>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
