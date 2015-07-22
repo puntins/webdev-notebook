@@ -97,6 +97,7 @@ textarea {
 
 body {
   background-color: #1b1b1b;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .stickIt {
@@ -115,21 +116,36 @@ header {
 }
 
 #journal {
-  margin-top: 190px;
+  margin-top: 200px;
 }
 
 section:before {
   display: block;
   content: " ";
-  margin-top: -190px;
-  height: 190px;
+  margin-top: -200px;
+  height: 200px;
   visibility: hidden;
 }
 
 h1 {
+  font-size: 45px;
   margin: 0 0 2rem 2rem;
   padding-top: 2rem;
   color: #fff;
+}
+
+.innerNav a:link {
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+}
+
+.innerNav a:visited {
+  color: #fff;
+}
+
+.innerNav a:hover {
+  color: #7cdfe6;
 }
 
 nav ul {
@@ -142,6 +158,7 @@ nav ul {
 nav li {
   display: inline-block;
   list-style: none;
+  font-size: 24px;
   padding: 0 1rem 0 1rem;
 }
 
@@ -164,7 +181,7 @@ h2 {
 }
 
 article {
-  background: #b5cfce;
+  background: #7cdfe6;
   border: 2px solid #323232;
   border-radius: 2px;
   margin-top: 1rem;
