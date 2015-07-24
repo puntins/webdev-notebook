@@ -164,15 +164,18 @@ nav li {
 
 .supportLinks {
   display: flex;
+  flex-direction: row;
   justify-content: flex-end;
-  align-items: flex-start;
+  align-items: flex-end;
+  margin-right: 50px;
+  margin-top: -40px;
 }
 
 .supportLinks img{
   width: 50px;
   height: auto;
-  padding: 0 8px 0 0;
-  margin-top: -2rem;
+/*  padding: 0 0 0 0;
+  margin-top: -2rem; */
 }
 
 h2 {
@@ -205,6 +208,53 @@ footer {
   justify-content: center;
   margin-top: 2rem;
 }
+
+@media screen and (max-width: 800px) {
+
+
+
+  #journal {
+    margin-top: 270px;
+  }
+
+  section:before {
+    margin-top: -270px;
+    height: 270px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+
+  h1 {
+    font-size: 30px;
+    text-align: center;
+    margin: 0 0 2rem 0;
+  }
+
+  nav li {
+    font-size: 16px;
+    padding: 0 0.25rem 0 0.25rem;
+  }
+
+  .supportLinks {
+    justify-content: center;
+    padding-bottom: 0rem;
+    margin-bottom: -30px;
+    margin-right: 0;
+    margin-top: 0;
+  }
+
+  #journal {
+    margin-top: 230px;
+  }
+
+  section:before {
+    margin-top: -230px;
+    height: 230px;
+  }
+}
+
+
 
 
 
